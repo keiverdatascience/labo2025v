@@ -5,6 +5,8 @@ En esta carpeta encontrará la notebook de google colab que se empleó para el s
 
 Los archivos son: 
 
+-submit_final_KeiverNunez.ipynb
+
 -gerencial_competencia_2025v_csv.xlsx.
 
 -Indice-FACPCE.xlsx (contiene el coeficiente de ajuste a aplicar en la sección de Data Drifting de la notebook).
@@ -14,6 +16,7 @@ Si en cambio ejecuta la notebook desde JupyterLab puede omitir esta primera secc
 
 Adicionalmente, se sumó la sección 1.3.2 para ejecutar un sencillo EDA para explorar el dataset. El output de esta sección del código es un archivo html que se guarda en la carpeta del experimento y se puede abrir con cualquier navegador web.
 
+El submit final es el que corresponde al submit KA1012_800.csv subido por mi usuairo keivernuez. Fue subido desde la VM de Google Cloud, por eso encontrará dos submits en el leaderboard con mi nombre, unos desde Colab y otros desde la VM. 
 
 ---
 
@@ -35,11 +38,6 @@ Adicionalmente, se sumó la sección 1.3.2 para ejecutar un sencillo EDA para ex
       num_iterations= 2048,  
       early_stopping_rounds= 300
   
-- ✔ Los mejores hiperparámetros encontrados por la BO con un total de 20 iteraciones fueron:
--     num_leaves = 
-      min_data_in_leaf =
-      feature_fraction = 
-
 ---
 
 ## 🧠 Tecnologías Usadas
